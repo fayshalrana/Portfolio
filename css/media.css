@@ -1,0 +1,1515 @@
+@media (min-width:320px) and (max-width: 991px) {
+    .aos-animate {
+
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+        
+}
+
+/* // Large devices */
+@media (max-width: 1199.98px) {
+
+    /* //////////////////////////////////////////header part media css start here////////////////////////////////////  */
+    .nav-link {
+        font-size: 15px;
+    }
+
+    /* //////////////////////////////////////////header part media css end here////////////////////////////////////  */
+    /* //////////////////////////////////////////banner part media css start here////////////////////////////////////  */
+    .banner_text h3 {
+        font-size: 37px;
+    }
+
+    .banner_text h1 {
+        font-size: 47px;
+    }
+
+    .banner_text p {
+        font-size: 20px;
+    }
+
+    /* //////////////////////////////////////////banner part media css end here////////////////////////////////////  */
+    /* //////////////////////////////////////////about part media css start here////////////////////////////////////  */
+    .about_head h3 {
+        font-size: 39px;
+    }
+
+    .about_text_top p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .qstn span {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        color: #444444;
+        line-height: 20px;
+    }
+
+    .bio_item {
+        padding-top: 25px;
+        padding-left: 25px;
+        gap: 17px;
+    }
+
+    .about_btn button {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+
+    /* //////////////////////////////////////////about part media css end here////////////////////////////////////  */
+
+    /* //////////////////////////////////////////service part media css start here////////////////////////////////////  */
+    .about_head h3 {
+        font-size: 35px;
+    }
+
+    .service_item_head h3 {
+        font-size: 17px;
+    }
+
+    /* //////////////////////////////////////////service part media css end here////////////////////////////////////  */
+    /* //////////////////////////////////////////Timeline part media css start here////////////////////////////////////  */
+    .service_head {
+        padding-bottom: 100px;
+    }
+
+    .content_text h3 {
+        font-size: 18px;
+    }
+
+    .content_text span {
+        font-size: 15px;
+        padding-top: 8px;
+        padding-bottom: 12px;
+    }
+
+    .content_text p {
+        font-size: 13px;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date::after {
+        left: -63px;
+    }
+
+    .timeline_item ul li:nth-child(2n):nth-child(6) .content_text::after {
+        left: -171px;
+    }
+
+    /* //////////////////////////////////////////Timeline part media css end here////////////////////////////////////  */
+    /* ///////////////////////////////////////// protfolilo part media css end here////////////////////////////////////  */
+    .port_heder {
+        padding-bottom: 50px;
+    }
+
+    .protfoilo_btn_grp ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+
+    .protfoilo_btn_grp ul li button {
+        font-size: 14px;
+    }
+
+    /* ///////////////////////////////////////// protfolilo part media css end here////////////////////////////////////  */
+    /* //////////////////////////////////////////testimonial part media css start here////////////////////////////////////  */
+    #test_part {
+        padding: 100px 0 20px 0;
+    }
+
+    .test_item {
+        padding: 79px 20px 20px 20px;
+    }
+
+    .tst_item_head h5 {
+        font-size: 15px;
+    }
+
+    .tst_btm p {
+        font-size: 13px;
+        padding-top: 7px;
+        line-height: 22px;
+    }
+
+    /* //////////////////////////////////////////testimonial part media css end here////////////////////////////////////  */
+    /* //////////////////////////////////////////My Skill part media css start here////////////////////////////////////  */
+    .slkill_content {
+        margin-top: 65px;
+    }
+
+    .bar_info span {
+        font-size: 18px;
+    }
+
+    .bar {
+        padding-bottom: 27px;
+    }
+
+    #pricing_plan {
+        padding-top: 0px;
+        padding-bottom: 60px;
+        background: #fff;
+    }
+
+    .pp_content_heading h4 {
+        font-size: 18px;
+        padding: 10px 64px;
+    }
+
+    .circle_containing_price_bg {
+        padding: 54px !important;
+    }
+
+    .pricing_offers {
+        padding: 70px 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .pp_content_footer a {
+        font-size: 14px;
+    }
+
+    /* //////////////////////////////////////////My Skill part media css end here////////////////////////////////////  */
+    /* //////////////////////////////////////////contact part media css start here////////////////////////////////////  */
+    #contact_part {
+        padding: 60px 0;
+    }
+
+    .cont_head h3 {
+        font-size: 35px;
+    }
+
+    .cont_item {
+        padding-bottom: 50px;
+    }
+
+    /* //////////////////////////////////////////contact part media css end here////////////////////////////////////  */
+    /* //////////////////////////////////////////footer part media css start here////////////////////////////////////  */
+    .footer_text p {
+        font-size: 11px;
+    }
+
+    /* //////////////////////////////////////////footer part media css end here////////////////////////////////////  */
+
+}
+
+/* // Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*////////////////////////////////////////// header part ////////////////////////////////////////// */
+    .navbar-brand img {
+        width: 78%;
+    }
+
+
+    ul.navbar-nav {
+        text-align: center;
+        background: skyblue;
+    }
+
+    .navbar-toggler i {
+        color: white;
+    }
+
+    .navbar-brand {
+        padding: 5px 0;
+    }
+
+    .nav-link::before {
+        width: 20%;
+    }
+
+    .nav-link:hover:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* about part start  */
+    .about_head h3 {
+        font-size: 38px;
+    }
+
+    .about_content {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .qstn span {
+        font-size: 14px;
+        line-height: 5px;
+    }
+
+    .about_btn button {
+        font-size: 12px;
+    }
+
+    /* //////////////////////////////////////////service part start here ////////////////////////////////////////// */
+    #service {
+        padding-bottom: 0px;
+    }
+
+    #service hr {
+        display: none;
+    }
+
+    .service_contant {
+        position: relative;
+        padding-top: 30px;
+    }
+
+    .service_items {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: -96px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+
+    .service_items {
+        margin: 0 auto;
+        position: relative;
+    }
+
+    /* ////////////////////////////////////////// time line part start here  ////////////////////////////////////////// */
+    #Experiences {
+        padding-top: 77px;
+    }
+
+    .service_head {
+        padding-bottom: 73px;
+    }
+
+    .content_text {
+        padding: 19px;
+        background: #f1f1f1;
+        transition: .4s;
+        margin: 0 30px;
+    }
+
+    .content_text span {
+        display: block;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        color: #444;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .right_side {
+        display: flex;
+        justify-content: center;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date {
+        margin-bottom: 20px;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date::after {
+        left: -144px;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date::before {
+        display: none;
+    }
+
+    .right_tab::before {
+        top: -10px;
+        left: 47%;
+        z-index: 999;
+    }
+
+    .content_item:hover .right_tab::before {
+        box-shadow: -2px -2px 2px rgba(128, 128, 128, 0.171);
+    }
+
+    .timeline_item ul li .content_date {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .left_side::before {
+        top: 95%;
+        right: 47%;
+    }
+
+    .timeline_item ul li:nth-child(2n):nth-child(6) .content_text::after {
+        bottom: -21px;
+        left: -44px;
+        border-radius: 50%;
+    }
+
+    .timeline_item ul li:nth-child(2n+1) .content_date::before {
+        display: none;
+    }
+
+    .content_item:hover .left_side::before {
+        box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.171);
+    }
+
+
+    /*////////////////////////////////////////// protfoilo part ////////////////////////////////////////// */
+    .portfoilo_itm {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+
+    /* testimonial part start  */
+    #test_part {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .test_item {
+        margin: 130px 30px 22px 24px;
+        padding: 80px 20px 10px 20px;
+        background: #f1f1f1;
+        position: relative;
+        transition: .4s;
+    }
+
+    .tst_btm p {
+        color: #444;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 7px;
+        line-height: 24px;
+    }
+
+    #test_part .slide .slick-dots {
+        position: absolute;
+        top: 100%;
+        left: 42%;
+        display: flex;
+        flex-direction: row;
+        /*////////////////////////////////////////// transform: translate(-50%); //////////////////////////////////////////*/
+    }
+
+    .slide .slick-dots::before {
+        height: 1px;
+        width: 85px;
+        position: absolute;
+        content: "";
+        top: 28px;
+        left: 23px;
+        border: 1px solid#444;
+    }
+
+    .slide .slick-dots button {
+        margin: 20px 11px;
+    }
+
+
+    /*////////////////////////////////////////// skill part start here  //////////////////////////////////////////*/
+    .kill_contant {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .slkill_content {
+        margin-top: 60px;
+    }
+
+    .skill_vide {
+        padding-top: 22px;
+    }
+
+    .video_icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .vido_overly h3 {
+        font-size: 25px;
+    }
+
+    .video_icon i {
+        font-size: 27px;
+    }
+
+    .bar {
+        padding-bottom: 7px;
+    }
+
+    .bar_info span {
+        font-size: 15px;
+    }
+
+    /*////////////////////////////////////////// pricing part start here  //////////////////////////////////////////*/
+    .pricing_plan_positioning {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .pp_content_heading h4 {
+        font-size: 15px;
+        padding: 10px 47px;
+    }
+
+    .circle_containing_price_bg {
+        padding: 55px !important;
+    }
+
+    .circle_containing_price h5 {
+        font-size: 28px;
+    }
+
+    .circle_containing_price p {
+        font-size: 12px;
+    }
+
+    .pricing_offers {
+        padding: 70px 0;
+    }
+
+    .pricing_offers p {
+        font-size: 13px;
+        padding-bottom: 8px;
+    }
+
+    .pp_content_footer a {
+        font-size: 15px;
+        padding: 10px 60px;
+    }
+
+    /*////////////////////////////////////////// contact part start here  //////////////////////////////////////////*/
+    .cont_head h3 {
+        font-size: 35px;
+    }
+
+    .contact_item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .cont_item {
+        display: inline-block;
+    }
+
+    .cont_btm_icons {
+        padding: 0px 178px;
+    }
+
+}
+
+/* / Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*////////////////////////////////////////// header part //////////////////////////////////////////*/
+    .navbar-brand img {
+        width: 78%;
+    }
+
+    ul.navbar-nav {
+        text-align: center;
+        background: skyblue;
+    }
+
+    .navbar-toggler i {
+        color: white;
+    }
+
+    .navbar-brand {
+        padding: 5px 0;
+    }
+
+    .nav-link::before {
+        width: 20%;
+    }
+
+    .nav-link:hover:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*////////////////////////////////////////// banner prt start  //////////////////////////////////////////*/
+    .banner_text h3 {
+        font-size: 36px;
+    }
+
+    .banner_text h1 {
+        font-size: 45px;
+    }
+
+    .banner_text p {
+        font-size: 22px;
+    }
+
+    /*////////////////////////////////////////// about part  //////////////////////////////////////////*/
+    #about .about_head h3 {
+        font-size: 35px;
+    }
+
+    #about .about_text {
+        padding-top: 30px;
+    }
+
+    .about_content {
+        margin-top: 50px;
+    }
+
+    .bio_item {
+        padding-top: 30px;
+        padding-left: 24px;
+        gap: 20px;
+    }
+
+    .about_text_top p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .qstn {
+        display: flex;
+        gap: 16px;
+    }
+
+    .qstn span {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .about_btn {
+        margin-top: 30px;
+        margin-left: 20px;
+        gap: 16px;
+        align-content: center;
+    }
+
+    .about_btn button {
+        font-size: 12px;
+    }
+
+
+    /*////////////////////////////////////////// service part  //////////////////////////////////////////*/
+    #service {
+        padding-bottom: 0;
+    }
+
+    #service .about_head h3 {
+        font-size: 35px;
+    }
+
+    .service_item_head h3 {
+        font-size: 21px;
+    }
+
+    .service_items {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        position: relative;
+
+    }
+
+    #service hr {
+        display: none;
+    }
+
+    .service_item {
+        padding: 0 20px;
+        margin: 20px 60px;
+    }
+
+    .service_item_img {
+        height: 100px;
+        width: 100px;
+        position: relative;
+    }
+
+    .service_item_img img {
+        position: absolute;
+        width: 50%;
+    }
+
+    .service_item_text {
+        margin-top: 50px;
+    }
+
+    .service_item_text span {
+        left: 48%;
+    }
+
+    /*////////////////////////////////////////// timeline part  //////////////////////////////////////////*/
+    .about_head h3 {
+        font-size: 35px;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+        color: #111111;
+        position: relative;
+    }
+
+    #Experiences {
+        padding-top: 70px;
+    }
+
+    #Experiences .service_head {
+        padding-bottom: 70px;
+    }
+
+    .timeline_item ul li:nth-child(2n+1) .content_item::before {
+        display: none;
+    }
+
+    .timeline_item::before {
+        display: none;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date::after {
+        display: none;
+    }
+
+    .timeline_item ul li .content_date {
+        margin-top: 20px !important;
+        width: 70%;
+        margin: 0 auto;
+        height: 50px;
+        border-radius: 50px;
+        transition: .4s;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date {
+        margin-bottom: 20px !important;
+        width: 70%;
+        margin: 0 auto;
+        height: 50px;
+        border-radius: 50px;
+        transition: .4s;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date::before {
+        display: none;
+    }
+
+    .timeline_item ul li:nth-child(2n+1) .content_date::before {
+        display: non;
+    }
+
+    .timeline_item ul li:nth-child(2n):nth-child(6) .content_text::after {
+        display: none;
+    }
+
+    /*////////////////////////////////////////// protfoilo part  //////////////////////////////////////////*/
+    #protfolio {
+        padding-top: 70px;
+    }
+
+    .port_heder {
+        padding-bottom: 60px;
+    }
+
+    .protfoilo_btn_grp ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .portfoilo_itm {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    .portfoilo_img:hover img {
+        transform: scale(.9);
+    }
+
+    .left_side::before {
+        display: none;
+    }
+
+    .right_tab::before {
+        display: none;
+    }
+
+    /*////////////////////////////////////////// testimonial part  //////////////////////////////////////////*/
+    #test_part {
+        padding-top: 100px;
+    }
+
+    #test_part .about_head h3 {
+        font-size: 30px !important;
+    }
+
+    #test_part .slide .slick-dots {
+        display: none !important;
+        position: absolute;
+        bottom: -331px !important;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 321px;
+    }
+
+    #test_part .slide .slick-dots li {
+        margin: 0 20px;
+    }
+
+    .slide .slick-dots::before {
+        height: 1px;
+        width: 131px;
+        position: absolute;
+        content: "";
+        top: 293px !important;
+        left: 300px !important;
+        border: 1px solid#444;
+    }
+
+    .test_item {
+        margin: 130px 30px 22px 24px;
+        padding: 30px;
+        background: #f1f1f1;
+        position: relative;
+        transition: .4s;
+    }
+
+    .tst_img {
+        width: 100px;
+        height: 100px;
+        top: 0;
+        left: 75%;
+        /* display: none; */
+    }
+
+    /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// skill part  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    #skill {
+        padding: 0;
+    }
+
+    #skill .about_head h3 {
+        font-size: 30px;
+    }
+
+    .bar_info span {
+        font-size: 14px;
+    }
+
+    .bar {
+        padding: 0 !important;
+    }
+
+    .skill_contants {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .slkill_content {
+        margin-top: 54px;
+        padding: 0;
+    }
+
+    .vido_overly h3 {
+        font-size: 23px;
+    }
+
+    .video_icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .video_icon i {
+        font-size: 22px;
+    }
+
+    .progress_line {
+        margin-bottom: 15px;
+    }
+
+    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// pricing plan  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    .pricing_plan_positioning {
+        margin-top: 55px;
+    }
+
+    .pricing_plan_positioning {
+        padding: 0px 0px;
+        display: grid !important;
+        grid-auto-columns: re;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-row-gap: 30px;
+    }
+
+    .third_col_of_pp {
+        grid-column: 2 span /3;
+        padding: 0 130px !important;
+    }
+
+    #pricing_plan .about_head h3 {
+        font-size: 30px;
+    }
+
+    .pp_content_heading {
+        height: 87px;
+    }
+
+    .pricing_plan_contents {
+        position: relative;
+        transition: .5s;
+        margin: 6px;
+    }
+
+    .pp_content_heading h4 {
+        font-size: 9px;
+    }
+
+    .circle_containing_price {
+        height: 79px;
+        width: 79px;
+        left: 63%;
+    }
+
+    .circle_containing_price h5 {
+        font-size: 23px;
+    }
+
+    .circle_containing_price p {
+        font-size: 9px;
+    }
+
+    .pricing_offers {
+        padding: 43px 0;
+    }
+
+    .pricing_offers p {
+        padding-bottom: 11px;
+    }
+
+    .pricing_offers p {
+        font-size: 11px;
+        padding-bottom: 11px;
+    }
+
+    .pp_content_footer a {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        color: #444444;
+        padding: 10px 22px;
+    }
+
+    /*//////////////////////////////////////////////////////////////////////////////////// .contact part  ////////////////////////////////////////////////////////////////////////////////////*/
+    .cont_head h3 {
+        font-size: 30px;
+    }
+
+    .contact_item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 65px;
+    }
+
+    .cont_item {
+        padding-top: 0 !important;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+
+    .cont_text {
+        padding-top: 0;
+    }
+
+    .pdng {
+        padding: 0 !important;
+    }
+
+    .cont_item {
+        padding-top: 0 !important;
+    }
+
+    .cont_btm_icons {
+        padding: 0px 100px;
+    }
+
+    /*////////////////////////////////////////// footer part  //////////////////////////////////////////*/
+    .footer_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_text p {
+        font-size: 12px;
+    }
+}
+
+/* // X-Small devices   */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /*////////////////////////////////////////// header part media css start ////////////////////////////////////////// */
+    .navbar-brand img {
+        width: 23%;
+    }
+
+    ul.navbar-nav {
+        text-align: center;
+        background: skyblue;
+    }
+
+    .navbar-toggler i {
+        color: white;
+    }
+
+    .navbar-brand {
+        padding: 5px 0;
+    }
+
+    .nav-link {
+        font-size: 13px;
+    }
+
+    .nav-link::before {
+        width: 20%;
+    }
+
+    .nav-link:hover:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hamburger {
+        cursor: pointer;
+      }
+      
+      .hamburger input {
+        display: none;
+      }
+      
+      .hamburger svg {
+        /* The size of the SVG defines the overall size */
+        height: 3rem;
+        /* Define the transition for transforming the SVG */
+        transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .line {
+        fill: none;
+        stroke: rgb(0, 0, 0);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3;
+        /* Define the transition for transforming the Stroke */
+        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+                    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .line-top-bottom {
+        stroke-dasharray: 12 63;
+      }
+      
+      /* .hamburger input:checked + svg {
+        transform: rotate(-45deg);
+      }
+       
+      .hamburger input:checked + svg .line-top-bottom {
+        stroke-dasharray: 20 300;
+        stroke-dashoffset: -32.42;
+      } */
+      .add{
+        stroke-dasharray: 12 63;
+      }
+      .navbar-toggler {
+        padding: 0 !important;
+       outline: none;
+       border: none;
+    }      
+    /*////////////////////////////////////////// banner part  //////////////////////////////////////////*/
+    #banner {
+        margin-bottom: 81px;
+    }
+    .banner_contant {
+        padding-bottom: 90px;
+        padding-top: 95px;
+    }
+
+    .banner_text h3 {
+        font-size: 30px;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+    }
+
+    .banner_text p {
+        font-size: 20px;
+    }
+
+    .about_head {
+        font-size: 30px;
+    }
+
+    .about_head h3 {
+        font-size: 36px;
+    }
+
+    .banner_soicial .banner_scl_icon:last-child {
+        bottom: -36px;
+        left: -8px;
+    }
+
+    .banner_soicial .banner_scl_icon:nth-child(4) {
+        bottom: -35px;
+        right: -3px;
+    }
+
+    .banner_soicial .banner_scl_icon:nth-child(2) {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -51px;
+    }
+
+    /*////////////////////////////////////////// about part  //////////////////////////////////////////*/
+.banner_idnty {
+	position: absolute;
+	left: 50%;
+	bottom: -25%;
+	transform: translateX(-50%);
+}
+    .banner_img {
+	height: 150px;
+	width: 150px;
+}
+    .banner_scl_icon {
+        width: 35px;
+        height: 35px;
+    }
+    .banner_scl_icon a {
+        font-size: 15px;
+    }
+    #about {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .about_content {
+        margin-top: 48px;
+    }
+    .about_img {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+.about_img img {
+	width: 60%;
+}
+    .bio_item {
+        padding-top: 23px;
+        padding-left: 15px;
+    }
+
+    .qstn span {
+        font-size: 14px;
+        line-height: 8px;
+    }
+
+    .about_text {
+        margin-top: 20px;
+    }
+
+    .about_btn button {
+        font-size: 12px;
+        padding: 10px 13px;
+    }
+
+    /*////////////////////////////////////////// service part  //////////////////////////////////////////*/
+    #service {
+        padding-bottom: 0;
+    }
+
+    .service_head {
+        margin-bottom: 60px;
+        padding-bottom: 20px !important;
+    }
+
+    #service hr {
+        display: none;
+    }
+
+    .service_items {
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+    }
+
+    .service_items .col-lg-3 {
+        padding-bottom: 30px;
+    }
+
+    /*////////////////////////////////////////// protfoilo part ////////////////////////////////////////// */
+    #protfolio {
+        padding-top: 70px;
+    }
+
+    .port_heder {
+        padding-bottom: 60px;
+    }
+
+    .protfoilo_btn_grp ul li {
+        padding: 15 10px;
+    }
+
+    .protfoilo_btn_grp ul li button {
+        font-size: 11px;
+    }
+
+    .port_heder .about_head h3 {
+        font-size: 30px !important;
+    }
+
+    .protfoilo_btn_grp ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+
+    .portfoilo_itm {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .portfoilo_img {
+        padding: 0;
+    }
+
+    .portfoilo_img:hover img {
+        transform: scale(.9);
+    }
+
+    /*////////////////////////////////////////// Experiences part start here  //////////////////////////////////////////*/
+    #Experiences {
+        padding-top: 70px;
+    }
+
+    #service .about_head {
+        margin-bottom: 0;
+    }
+
+    .service_head .about_head h3 {
+        font-size: 22px;
+    }
+
+    .service_item_img {
+        margin: 24px auto;
+    }
+
+    .service_head {
+        padding-bottom: 100px;
+    }
+
+    .timeline_item::before {
+        display: none;
+    }
+
+    .service_item_text span {
+        left: 46%;
+
+    }
+
+    .content_text span {
+        padding-top: 6px;
+        padding-bottom: 13px;
+    }
+
+    .timeline_item ul li:nth-child(2n+1) {
+        width: 100%;
+    }
+
+    .content_item::before {
+        display: none;
+    }
+
+    .left_side::before {
+        display: none;
+
+    }
+
+    .right_tab::before {
+        display: none;
+    }
+
+    .timeline_item ul li .content_date {
+        margin-top: 20px !important;
+        width: 70%;
+        margin: 0 auto;
+        height: 50px;
+        border-radius: 50px;
+        transition: .4s;
+    }
+
+    .timeline_item ul li:nth-child(2n+1) .content_date::before {
+        width: 1px;
+        height: 20px;
+        left: 50%;
+        top: -21px;
+    }
+
+    /* ///////////////////////////////////////////////// timeline midea css start /////////////////////////////// */
+    .timeline_item ul li:nth-child(2n+1) .content_text {
+        text-align: center;
+    }
+
+    .timeline_item ul li:nth-child(2n) {
+        width: 100%;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date::after {
+        display: none;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date {
+        margin-bottom: 20px !important;
+        width: 70%;
+        margin: 0 auto;
+        height: 50px;
+        border-radius: 50px;
+        transition: .4s;
+    }
+
+    .timeline_item ul li:nth-child(2n) .content_date::before {
+        width: 1px;
+        height: 20px;
+        left: 50%;
+        top: 49px !important;
+    }
+
+    /*////////////////////////////////////////// testimonial part ////////////////////////////////////////// */
+    #test_part {
+        padding-top: 70px;
+        padding-bottom: 34px;
+    }
+
+    #test_part .about_head {
+        margin-bottom: 100px;
+    }
+
+    #test_part .about_head h3 {
+        font-size: 30px !important;
+
+    }
+
+    #test .slide .row-cols-lg-6 {
+        display: block;
+        width: 100% !;
+    }
+
+    .test_item {
+        position: absulate;
+        padding: 30px 10px;
+        margin: 0 10px;
+        background: #f1f1f1;
+        transition: .4s;
+    }
+
+    .tst_img {
+        width: 86px;
+        height: 100px;
+        top: 0;
+        left: 65%;
+    }
+
+    #test_part .slide .slick-dots {
+        display: none !important;
+    }
+
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+
+    .tst_item_head h5 {
+        color: #111;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .tst_btm h5 {
+        color: #111;
+        font-size: 11px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .tst_btm p {
+        color: #444;
+        font-size: 9px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 14px;
+        line-height: 15px;
+    }
+
+    /* //////////////////////////////////////////.skill part  //////////////////////////////////////////*/
+    #skill {
+        padding: 30px 0;
+    }
+
+    .slkill_content {
+        margin-top: 50px;
+    }
+
+    #skill .about_head h3 {
+        font-size: 30px !important;
+    }
+
+    .video_icon {
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+    }
+
+    .video_icon i {
+        font-size: 25px;
+    }
+
+    .vido_overly h3 {
+        font-size: 23px;
+    }
+
+    .bar_info span {
+        font-size: 15px;
+    }
+
+    .bar {
+        padding-bottom: 10px;
+    }
+
+    .progress_line.Dreamweaver span {
+        width: 62%;
+    }
+
+    /*////////////////////////////////////////// pricing plan part  //////////////////////////////////////////*/
+    #pricing_plan {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .pricing_plan_positioning {
+        margin-top: 40px;
+    }
+
+    #pricing_plan .about_head h3 {
+        font-size: 30px !important;
+    }
+
+    .pricing_plan_contents {
+        margin: 30px;
+    }
+
+    .pricing_offers {
+        padding: 70px 0;
+    }
+
+    .pricing_offers p {
+        padding-bottom: 8px;
+    }
+
+    .pp_content_footer a {
+        padding: 10px 70px;
+    }
+
+    .prf4sml {
+        padding: 10px 32px !important;
+    }
+
+    .pp_content_heading h4 {
+        padding: 10px 68px;
+    }
+
+    .circle_containing_price_bg {
+        padding: 54px !important;
+    }
+
+    .pp_content_offers {
+        height: 100%;
+    }
+
+    /*////////////////////////////////////////// contact part ////////////////////////////////////////// */
+    #contact_part {
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+
+    .cont_head h3 {
+        font-size: 30px;
+    }
+
+    .contact_item {
+        margin-top: 40px;
+    }
+
+    .cont_item {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        padding: 10px 42px;
+        border: none;
+        margin: 10px 0;
+        flex-direction: column;
+    }
+
+    .pdng {
+        padding: 0 !important;
+    }
+
+    .cont_text {
+        padding: 0 !important;
+    }
+
+    .cont_btm_text h3 {
+        margin-top: 10px 0;
+    }
+
+    .cont_btm_icons {
+        justify-content: space-evenly;
+        padding: 0 4px;
+    }
+
+    /*////////////////////////////////////////// footer part   //////////////////////////////////////////*/
+    .footer_text p {
+        font-size: 10px;
+    }
+}
